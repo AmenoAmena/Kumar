@@ -27,17 +27,15 @@ function changeColor(buttonColor) {
     body.style.backgroundColor = newColor;
     if (newColor === buttonColor) {
         counterWin +=1;
-        document.getElementById("winning_state").innerHTML = "You: " + win;
+        document.getElementById("winning_state").innerHTML += "" + win;
     }
     
     
     else {
-        counterLose -=1;
-        document.getElementById("winnig_state").innerHTML = "You: " + lose;
+        counterLose +=1;
+        document.getElementById("winning_state").innerHTML += "" + lose;
     }
-    if (counterLose === 0 ){
-        counterLose = 0;
-    }
+   
    
 
     
