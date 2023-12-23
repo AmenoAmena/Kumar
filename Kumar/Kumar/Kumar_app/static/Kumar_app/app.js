@@ -2,8 +2,8 @@ const buttonRed = document.querySelector("#red");
 const buttonGreen = document.querySelector("#green");
 const buttonBlue = document.querySelector("#blue");
 
-let counterWin = 0;
-let counterLose = 0;
+const counterWin = 0;
+const counterLose = 0;
 
 
 let win = "win";
