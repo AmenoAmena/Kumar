@@ -1,0 +1,42 @@
+.red {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-20%);   
+}
+#red {
+    width: 200px;
+    height: 20vh;
+    background-color: red;
+}
+.green {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;   
+    transform: translate(-50%,-50%);
+}
+#green {
+    width: 200px;
+    height: 20vh;
+    background-color: green;
+}
+.blue {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 80%;
+    left: 50%;   
+    transform: translate(-50%,-80%);
+}
+#blue {
+    width: 200px;
+    height: 20vh;
+    background-color: blue;
+}
