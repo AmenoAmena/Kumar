@@ -1,3 +1,8 @@
+/*
+Works
+*/
+
+
 const buttonRed = document.querySelector("#red");
 const buttonGreen = document.querySelector("#green");
 const buttonBlue = document.querySelector("#blue");
