@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'Kumar_app/style.css' %}">
+</head>
+<body>
+    <div class="red">
+        <button id="red">Red</button>
+    </div>
+    
+    <div class="green">
+        <button id="green">Green</button>
+    </div>
+    
+    <div class="blue">
+        <button id="blue">Blue</button>
+    </div>
+    
+    <p id="win">Your winning counter is:</p>
+    <p id="lose">Your losing counter is:</p>
+    <p id="winning_state">You</p>
+
+
+    <script src="{% static 'Kumar_app/app.js' %}"></script>
+
+</body>
+</html>
